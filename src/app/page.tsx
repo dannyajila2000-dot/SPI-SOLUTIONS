@@ -20,7 +20,6 @@ export default function Home() {
         <main id="inicio">
           <div className="hero">
             <div>
-              <span className="eyebrow">Desarrollo de software en Ecuador</span>
               <h1>Sistemas a la medida para que tu negocio <em>deje de depender del Excel</em>.</h1>
               <p className="lead">Creamos sistemas administrativos, páginas web, apps móviles y automatizaciones para negocios pequeños y medianos. Hablas con quien programa tu sistema, y cada avance lo ves funcionando.</p>
               <div className="hero-cta">
@@ -53,11 +52,6 @@ export default function Home() {
                   <text x="213" y="14" textAnchor="middle">$880</text>
                   <text x="23" y="114" textAnchor="middle">Lun</text><text x="61" y="114" textAnchor="middle">Mar</text><text x="99" y="114" textAnchor="middle">Mié</text><text x="137" y="114" textAnchor="middle">Jue</text><text x="175" y="114" textAnchor="middle">Vie</text><text x="213" y="114" textAnchor="middle">Sáb</text><text x="251" y="114" textAnchor="middle">Dom</text>
                 </svg>
-              </div>
-              <div className="rows">
-                <div className="row"><span>Pedido 0412 · Panadería Central</span><span className="amt">$86,40</span><span className="pill ok">Pagado</span></div>
-                <div className="row"><span>Pedido 0411 · Ferretería López</span><span className="amt">$240,00</span><span className="pill warn">Pendiente</span></div>
-                <div className="row"><span>Pedido 0410 · Café Mirador</span><span className="amt">$57,25</span><span className="pill ok">Pagado</span></div>
               </div>
             </aside>
           </div>
@@ -127,7 +121,6 @@ export default function Home() {
                   <li>Videos cortos que muestran cómo se hace cada ejercicio, durante el entrenamiento</li>
                   <li>Seguimiento de progreso, nutrición y recordatorios</li>
                 </ul>
-                <div className="chips"><span className="chip">App móvil</span><span className="chip">API en NestJS</span><span className="chip">PostgreSQL</span></div>
               </div>
               <div className="phone-wrap">
                 <div className="phone" aria-label="Pantalla de entrenamiento de gymProApp">
@@ -156,7 +149,6 @@ export default function Home() {
             <div className="why">
               <div><h3>Hablas con quien construye</h3><p>Sin intermediarios ni tickets. Explicas el problema y la misma persona lo resuelve.</p></div>
               <div><h3>Software que tú controlas</h3><p>El sistema es tuyo: código, datos y documentación quedan a tu disposición.</p></div>
-              <div><h3>Hecho para Ecuador</h3><p>Pensado para tu realidad: dólares, WhatsApp como canal principal y facturación electrónica del SRI cuando la necesites.</p></div>
             </div>
           </section>
 

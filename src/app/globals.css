@@ -97,13 +97,6 @@ p { margin: 0; }
 .chart .bar { fill: var(--bar); }
 .chart .bar.peak { fill: var(--brand); }
 .chart .base { stroke: var(--line); }
-.rows { display: grid; gap: .1rem; font-size: .88rem; }
-.row { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: .6rem; align-items: center; padding: .5rem 0; border-top: 1px solid var(--line); }
-.row span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.row .amt { font-variant-numeric: tabular-nums; font-weight: 600; }
-.pill { font-size: .7rem; font-weight: 600; padding: .22rem .55rem; border-radius: 999px; }
-.pill.ok { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
-.pill.warn { background: color-mix(in srgb, var(--warn) 20%, transparent); color: var(--warn); }
 
 /* sections */
 section { padding-block: clamp(2.5rem, 7vw, 5rem); }
@@ -139,8 +132,6 @@ section { padding-block: clamp(2.5rem, 7vw, 5rem); }
 .project ul { margin: 1.1rem 0 0; padding: 0; list-style: none; display: grid; gap: .5rem; }
 .project li { padding-left: 1.5rem; position: relative; }
 .project li::before { content: ""; position: absolute; left: 0; top: .6em; width: .8rem; height: 2px; background: var(--brand); }
-.chips { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.3rem; }
-.chip { font: 500 .78rem/1 var(--font-mono); padding: .45rem .65rem; border-radius: 8px; background: var(--surface-2); color: var(--ink-soft); }
 .phone-wrap { display: grid; place-items: center; }
 .phone { width: min(100%, 260px); aspect-ratio: 9 / 18; border-radius: 34px; background: #0b1a1d; padding: 10px; box-shadow: var(--shadow); }
 .screen { height: 100%; border-radius: 26px; background: #ffffff; color: #0f172a; padding: 1rem .9rem; display: flex; flex-direction: column; gap: .7rem; overflow: hidden; }
@@ -156,7 +147,7 @@ section { padding-block: clamp(2.5rem, 7vw, 5rem); }
 @media (max-width: 860px) { .project { grid-template-columns: minmax(0, 1fr); } }
 
 /* why */
-.why { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.why { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
 .why div { display: grid; gap: .5rem; align-content: start; padding: 1.3rem; border-radius: 14px; background: var(--surface-2); }
 .why h3 { font-size: 1.15rem; font-weight: 700; }
 .why p { color: var(--ink-soft); font-size: .98rem; }
