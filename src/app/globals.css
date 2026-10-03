@@ -178,6 +178,10 @@ details p { color: var(--ink-soft); padding-bottom: 1.1rem; }
 .contact-box { display: grid; gap: .8rem; }
 .copy { display: flex; align-items: center; justify-content: space-between; gap: .6rem; background: color-mix(in srgb, var(--brand-ink) 14%, transparent); border-radius: 12px; padding: .7rem .9rem; font: 500 .95rem var(--font-mono); min-width: 0; }
 .copy span { overflow-wrap: anywhere; user-select: all; }
+@media (max-width: 460px) {
+  .copy { flex-wrap: wrap; font-size: .82rem; }
+  #tel { white-space: nowrap; }
+}
 .copy button { background: transparent; border: 1px solid color-mix(in srgb, var(--brand-ink) 40%, transparent); color: var(--brand-ink); border-radius: 8px; padding: .35rem .6rem; font: 600 .8rem var(--font-body); cursor: pointer; flex: none; }
 @media (max-width: 860px) { .contact { grid-template-columns: minmax(0, 1fr); } }
 footer { padding-block: 2rem 2.5rem; color: var(--ink-soft); font-size: .92rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem 1.5rem; border-top: 1px solid var(--line); margin-top: 2.5rem; }
